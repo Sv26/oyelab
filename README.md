@@ -50,14 +50,11 @@ API Endpoints
 1. Retrieve all users
 Method: GET
 URL: http://localhost:3000/api/users
-Response: Returns a list of users.
 
 
 2. Retrieve a specific user
 Method: GET
 URL: http://localhost:3000/api/users/:id
-Example: http://localhost:3000/api/users/1
-Response: Returns user details if found.
 
 
 3. Create a new user
@@ -76,13 +73,11 @@ Response: Returns the created user with an ID.
 4. Update a user
 Method: PUT
 URL: http://localhost:3000/api/users/:id
-Example: http://localhost:3000/api/users/1
-Headers: Content-Type: application/json
-Body (JSON):
+
 
 {
-  "name": " Updated",
-  "email": "updated@example.com"
+  "name": " shubh",
+  "email": "shubh@example.com"
 }
 Response: Returns the updated user.
 
@@ -90,8 +85,6 @@ Response: Returns the updated user.
 5. Delete a user
 Method: DELETE
 URL: http://localhost:3000/api/users/:id
-Example: http://localhost:3000/api/users/1
-Response: Deletes the user.
 
 
 Testing with Postman
