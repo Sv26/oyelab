@@ -81,8 +81,8 @@ Headers: Content-Type: application/json
 Body (JSON):
 
 {
-  "name": "John Updated",
-  "email": "john.updated@example.com"
+  "name": " Updated",
+  "email": "updated@example.com"
 }
 Response: Returns the updated user.
 
