@@ -18,8 +18,8 @@ It provides CRUD operations for managing users and includes middleware for valid
 ### **1. Clone the Repository**
 
 ```sh
-git
-cd
+https://github.com/Sv26/oyelab.git
+cd oyelab
 
 2. Install Dependencies
 
