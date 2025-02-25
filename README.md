@@ -64,8 +64,8 @@ Headers: Content-Type: application/json
 Body (JSON):
 
 {
-  "name": "John Doe",
-  "email": "john.doe@example.com"
+  "name": "shubham",
+  "email": "shubham@example.com"
 }
 Response: Returns the created user with an ID.
 
